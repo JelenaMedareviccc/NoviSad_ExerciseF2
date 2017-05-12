@@ -50,7 +50,7 @@ public class PlanetExplorer {
 			}
 			
 		}
-		if(canMove){
+		
 		if(direction=="N" || direction=="S")
 		{
 			if(this.pos_y==y-1){
@@ -83,7 +83,7 @@ public class PlanetExplorer {
 			}
 			
 		}
-		}
+		
 		if(command=="l")
 		{
 			this.direction="W";

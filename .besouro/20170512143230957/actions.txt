@@ -146,3 +146,4 @@ UnitTestCaseAction 1494596257973 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494596257973 TestPlanetExplorer.java FAIL
 RefactoringAction 1494596276223 TestPlanetExplorer.java REMOVE test_prepreka() METHOD
 EditAction 1494596284441 TestPlanetExplorer.java 1543 7 23 7
+EditAction 1494596287800 PlanetExplorer.java 2246 2 12 0
