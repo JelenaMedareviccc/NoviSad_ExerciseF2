@@ -1,0 +1,6 @@
+FileOpenedAction 1494592351500 PlanetExplorer.java 1245 2 1 0
+FileOpenedAction 1494592425570 PlanetExplorerException.java 61 0 0 0
+FileOpenedAction 1494592430046 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1494592450116 PlanetExplorerException.java ADD PlanetExplorerException() METHOD
+RefactoringAction 1494592450119 PlanetExplorerException.java ADD PlanetExplorerException(Throwable) METHOD
+EditAction 1494592467685 PlanetExplorerException.java 271 2 2 0
