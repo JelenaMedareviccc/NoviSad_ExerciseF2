@@ -54,3 +54,4 @@ UnitTestSessionAction 1494593764274 TestPlanetExplorer.java OK
 RefactoringAction 1494593859246 TestPlanetExplorer.java ADD void test_commandF()/2 METHOD
 RefactoringAction 1494593861755 TestPlanetExplorer.java RENAME test_commandF()/2=>void test_commandL() METHOD
 EditAction 1494593867816 TestPlanetExplorer.java 533 3 6 3
+EditAction 1494593879384 PlanetExplorer.java 1645 2 6 0

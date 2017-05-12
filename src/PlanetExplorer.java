@@ -43,6 +43,10 @@ public class PlanetExplorer {
 		{
 			this.pos_y--;
 		}
+		if(command=="l")
+		{
+			this.direction="W";
+		}
 		
 		
 		
