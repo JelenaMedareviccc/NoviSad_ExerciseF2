@@ -65,3 +65,8 @@ EditAction 1494594125840 PlanetExplorer.java 1695 2 7 0
 RefactoringAction 1494594161402 TestPlanetExplorer.java ADD void test_commandL()/2 METHOD
 RefactoringAction 1494594163434 TestPlanetExplorer.java RENAME test_commandL()/2=>void test_commandR() METHOD
 EditAction 1494594175715 TestPlanetExplorer.java 676 4 8 4
+UnitTestCaseAction 1494594178797 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494594178797 TestPlanetExplorer.java OK
+RefactoringAction 1494594271031 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1494594271031 PlanetExplorer.java ADD int y FIELD
+EditAction 1494594284203 PlanetExplorer.java 1717 2 7 0

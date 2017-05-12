@@ -9,6 +9,8 @@ public class PlanetExplorer {
 	public String direction="N";
 	public int pos_x=0;
 	public int pos_y=0;
+	public int x;
+	public int y;
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -17,8 +19,8 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-		this.pos_x=x;
-		this.pos_y=y;
+		this.x=x;
+		this.y=y;
 		//listaObstacles.add((x,y));
 		//ostacles.add((x,y));
 		
