@@ -58,4 +58,11 @@ public class TestPlanetExplorer {
 		pe.executeCommand("f");
 		assertEquals("(0,0,N)",pe.executeCommand("f"));	
 	}
+	
+	@Test
+	public void test_prepreka() {
+		PlanetExplorer pe=new PlanetExplorer(3,3,"(0,1)");
+		
+		assertEquals("(0,0,N)",pe.executeCommand("f"));	
+	}
 }

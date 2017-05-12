@@ -6,7 +6,7 @@ import java.util.ArrayList;
 // Student ID:
 
 public class PlanetExplorer {
-	ArrayList listObstacles=new ArrayList();
+	String  listObstacles=new String();
 	public String direction="N";
 	public int pos_x=0;
 	public int pos_y=0;
@@ -38,7 +38,18 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+	int temp_x=pos_y;
+	int temp_y=pos_x;
+	boolean canMove=false;
 	
+		for(int i=0;i<listObstacles.length();i++)
+		{
+			if(temp_x+1==listObstacles.indexOf(i))
+			{
+				 canMove=true;
+			}
+			
+		}
 		if(direction=="N" || direction=="S")
 		{
 			if(this.pos_y==y-1){
