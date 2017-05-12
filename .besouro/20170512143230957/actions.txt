@@ -38,3 +38,4 @@ RefactoringAction 1494593368308 PlanetExplorer.java RENAME pos_x=>int pos_0 FIEL
 RefactoringAction 1494593370823 PlanetExplorer.java RENAME pos_0=>int pos_ FIELD
 RefactoringAction 1494593372337 PlanetExplorer.java RENAME pos_=>int pos_x FIELD
 EditAction 1494593383075 PlanetExplorer.java 1554 2 2 0
+EditAction 1494593403997 PlanetExplorer.java 1546 2 4 0
