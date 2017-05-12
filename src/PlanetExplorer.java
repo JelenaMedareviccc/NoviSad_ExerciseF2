@@ -2,8 +2,8 @@ import java.awt.List;
 import java.util.ArrayList;
 
 // Before you commit and push write your student ID and finish time here.
-// Finish time:
-// Student ID:
+// Finish time: 3:38
+// Student ID: IT50-2015
 
 public class PlanetExplorer {
 	ArrayList listObstacles=new ArrayList();
