@@ -107,3 +107,4 @@ RefactoringAction 1494595098360 TestPlanetExplorer.java RENAME test_of()=>void t
 RefactoringAction 1494595101938 TestPlanetExplorer.java RENAME test_of_end()=>void test_endOf() METHOD
 RefactoringAction 1494595108548 TestPlanetExplorer.java RENAME test_endOf()=>void test_endOfPlanet() METHOD
 EditAction 1494595136391 TestPlanetExplorer.java 1190 6 19 6
+EditAction 1494595160344 TestPlanetExplorer.java 1190 6 19 6
