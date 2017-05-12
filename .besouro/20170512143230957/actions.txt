@@ -117,3 +117,7 @@ CompilationAction 1494595243183 PlanetExplorer.java
 UnitTestCaseAction 1494595246133 TestPlanetExplorer.java OK
 UnitTestSessionAction 1494595246133 TestPlanetExplorer.java OK
 EditAction 1494595290617 PlanetExplorer.java 2061 2 7 0
+RefactoringAction 1494595299883 TestPlanetExplorer.java ADD void test_endOfPlanet()/2 METHOD
+RefactoringAction 1494595317586 TestPlanetExplorer.java RENAME test_endOfPlanet()/2=>void test_endOfPlanet_Y() METHOD
+RefactoringAction 1494595320617 TestPlanetExplorer.java RENAME test_endOfPlanet()=>void test_endOfPlanet_X() METHOD
+EditAction 1494595356430 TestPlanetExplorer.java 1389 7 23 7

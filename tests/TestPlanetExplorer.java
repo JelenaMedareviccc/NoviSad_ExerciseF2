@@ -43,12 +43,19 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_endOfPlanet() {
+	public void test_endOfPlanet_X() {
 		PlanetExplorer pe=new PlanetExplorer(3,3,"");
 		pe.executeCommand("f");
 		pe.executeCommand("r");
 		pe.executeCommand("f");
 		pe.executeCommand("f");
 		assertEquals("(0,1,E)",pe.executeCommand("f"));	
+	}
+	@Test
+	public void test_endOfPlanet_Y() {
+		PlanetExplorer pe=new PlanetExplorer(3,3,"");
+		pe.executeCommand("f");
+		pe.executeCommand("l");
+		assertEquals("(0,0,E)",pe.executeCommand("f"));	
 	}
 }
