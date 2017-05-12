@@ -139,3 +139,10 @@ CompilationAction 1494596099451 PlanetExplorer.java
 RefactoringAction 1494596119703 TestPlanetExplorer.java ADD void test_endOfPlanet_Y()/2 METHOD
 RefactoringAction 1494596124296 TestPlanetExplorer.java RENAME test_endOfPlanet_Y()/2=>void test_prepreka() METHOD
 EditAction 1494596158624 TestPlanetExplorer.java 1539 8 25 8
+CompilationAction 1494596208873 PlanetExplorer.java
+CompilationAction 1494596209076 PlanetExplorer.java
+CompilationAction 1494596251679 PlanetExplorer.java
+UnitTestCaseAction 1494596257973 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494596257973 TestPlanetExplorer.java FAIL
+RefactoringAction 1494596276223 TestPlanetExplorer.java REMOVE test_prepreka() METHOD
+EditAction 1494596284441 TestPlanetExplorer.java 1543 7 23 7
