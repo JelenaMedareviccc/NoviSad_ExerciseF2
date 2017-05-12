@@ -55,7 +55,7 @@ public class TestPlanetExplorer {
 	public void test_endOfPlanet_Y() {
 		PlanetExplorer pe=new PlanetExplorer(3,3,"");
 		pe.executeCommand("f");
-		pe.executeCommand("l");
-		assertEquals("(2,1,W)",pe.executeCommand("f"));	
+		pe.executeCommand("f");
+		assertEquals("(0,0,N)",pe.executeCommand("f"));	
 	}
 }
