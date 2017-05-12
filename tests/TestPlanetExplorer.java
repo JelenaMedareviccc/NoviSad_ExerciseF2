@@ -36,7 +36,9 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_command_ifis_W_andgoCommandF() {
 		PlanetExplorer pe=new PlanetExplorer(3,3,"");
-		
+		pe.executeCommand("f");
+		pe.executeCommand("r");
+		pe.executeCommand("f");
 		assertEquals("(0,0,E)",pe.executeCommand("r"));	
 	}
 }

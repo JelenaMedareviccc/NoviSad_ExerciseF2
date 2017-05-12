@@ -93,3 +93,4 @@ RefactoringAction 1494594724879 TestPlanetExplorer.java RENAME test_command_ifis
 RefactoringAction 1494594732988 TestPlanetExplorer.java RENAME test_command_ifisWandgoCommandF()=>void test_command_ifis_WandgoCommandF() METHOD
 RefactoringAction 1494594733988 TestPlanetExplorer.java RENAME test_command_ifis_WandgoCommandF()=>void test_command_ifis_W_andgoCommandF() METHOD
 EditAction 1494594737801 TestPlanetExplorer.java 864 5 11 5
+EditAction 1494594822270 TestPlanetExplorer.java 939 5 14 5
