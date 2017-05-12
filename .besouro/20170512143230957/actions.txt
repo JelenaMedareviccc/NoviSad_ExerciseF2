@@ -109,3 +109,6 @@ RefactoringAction 1494595108548 TestPlanetExplorer.java RENAME test_endOf()=>voi
 EditAction 1494595136391 TestPlanetExplorer.java 1190 6 19 6
 EditAction 1494595160344 TestPlanetExplorer.java 1190 6 19 6
 EditAction 1494595164673 PlanetExplorer.java 1992 2 7 0
+UnitTestCaseAction 1494595166418 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494595166418 TestPlanetExplorer.java FAIL
+EditAction 1494595210730 PlanetExplorer.java 2003 2 7 0

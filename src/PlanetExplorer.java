@@ -54,6 +54,7 @@ public class PlanetExplorer {
 			
 			if(this.pos_x==x-1){
 				pos_x=0;
+				break;
 			}
 			
 			if(command=="f")
