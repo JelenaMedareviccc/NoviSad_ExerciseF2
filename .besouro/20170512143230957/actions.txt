@@ -79,3 +79,17 @@ UnitTestSessionAction 1494594381953 TestPlanetExplorer.java OK
 RefactoringAction 1494594400125 PlanetExplorer.java ADD List<> listObstacles FIELD
 RefactoringAction 1494594406703 PlanetExplorer.java REMOVE listObstacles FIELD
 EditAction 1494594671203 PlanetExplorer.java 1961 2 8 0
+UnitTestCaseAction 1494594673129 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494594673129 TestPlanetExplorer.java OK
+RefactoringAction 1494594697488 TestPlanetExplorer.java ADD void test_commandR()/2 METHOD
+RefactoringAction 1494594701020 TestPlanetExplorer.java RENAME test_commandR()/2=>void test_command() METHOD
+RefactoringAction 1494594703051 TestPlanetExplorer.java RENAME test_command()=>void test_command_if() METHOD
+RefactoringAction 1494594704567 TestPlanetExplorer.java RENAME test_command_if()=>void test_command_ifis() METHOD
+RefactoringAction 1494594712707 TestPlanetExplorer.java RENAME test_command_ifis()=>void test_command_ifisW() METHOD
+RefactoringAction 1494594718285 TestPlanetExplorer.java RENAME test_command_ifisW()=>void test_command_ifisWand() METHOD
+RefactoringAction 1494594719817 TestPlanetExplorer.java RENAME test_command_ifisWand()=>void test_command_ifisWandgo() METHOD
+RefactoringAction 1494594722332 TestPlanetExplorer.java RENAME test_command_ifisWandgo()=>void test_command_ifisWandgoCommand() METHOD
+RefactoringAction 1494594724879 TestPlanetExplorer.java RENAME test_command_ifisWandgoCommand()=>void test_command_ifisWandgoCommandF() METHOD
+RefactoringAction 1494594732988 TestPlanetExplorer.java RENAME test_command_ifisWandgoCommandF()=>void test_command_ifis_WandgoCommandF() METHOD
+RefactoringAction 1494594733988 TestPlanetExplorer.java RENAME test_command_ifis_WandgoCommandF()=>void test_command_ifis_W_andgoCommandF() METHOD
+EditAction 1494594737801 TestPlanetExplorer.java 864 5 11 5
