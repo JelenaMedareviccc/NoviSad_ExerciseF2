@@ -74,3 +74,8 @@ EditAction 1494594329406 TestPlanetExplorer.java 676 4 8 4
 UnitTestCaseAction 1494594332765 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494594332765 TestPlanetExplorer.java FAIL
 EditAction 1494594377640 TestPlanetExplorer.java 699 4 9 4
+UnitTestCaseAction 1494594381953 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494594381953 TestPlanetExplorer.java OK
+RefactoringAction 1494594400125 PlanetExplorer.java ADD List<> listObstacles FIELD
+RefactoringAction 1494594406703 PlanetExplorer.java REMOVE listObstacles FIELD
+EditAction 1494594671203 PlanetExplorer.java 1961 2 8 0

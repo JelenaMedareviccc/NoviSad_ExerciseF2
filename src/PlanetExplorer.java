@@ -37,13 +37,33 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		if(this.pos_x==x-1){
+		
+			
+		}
+		if(direction=="N" || direction=="S"){
 		if(command=="f")
 		{
 			this.pos_y++;
+			
 		}
 		if(command=="b")
 		{
 			this.pos_y--;
+		}
+		}
+		if(direction=="W" || direction=="E")
+		{
+			if(command=="f")
+			{
+				this.pos_x++;
+				
+			}
+			if(command=="b")
+			{
+				this.pos_x--;
+			}
+			
 		}
 		if(command=="l")
 		{
@@ -52,7 +72,10 @@ public class PlanetExplorer {
 		if(command=="r")
 		{
 			this.direction="E";
+			
 		}
+		
+		
 		
 		
 		
