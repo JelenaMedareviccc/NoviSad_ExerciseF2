@@ -95,3 +95,15 @@ RefactoringAction 1494594733988 TestPlanetExplorer.java RENAME test_command_ifis
 EditAction 1494594737801 TestPlanetExplorer.java 864 5 11 5
 EditAction 1494594822270 TestPlanetExplorer.java 939 5 14 5
 EditAction 1494594894957 TestPlanetExplorer.java 941 5 13 5
+UnitTestCaseAction 1494594897876 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494594897876 TestPlanetExplorer.java OK
+RefactoringAction 1494595073048 TestPlanetExplorer.java ADD void test_command_ifis_W_andgoCommandF()/2 METHOD
+RefactoringAction 1494595087251 TestPlanetExplorer.java RENAME test_command_ifis_W_andgoCommandF()/2=>void test() METHOD
+RefactoringAction 1494595088251 TestPlanetExplorer.java RENAME test()=>void test_() METHOD
+RefactoringAction 1494595091282 TestPlanetExplorer.java RENAME test_()=>void test_w() METHOD
+RefactoringAction 1494595093813 TestPlanetExplorer.java RENAME test_w()=>void test_() METHOD
+RefactoringAction 1494595095844 TestPlanetExplorer.java RENAME test_()=>void test_of() METHOD
+RefactoringAction 1494595098360 TestPlanetExplorer.java RENAME test_of()=>void test_of_end() METHOD
+RefactoringAction 1494595101938 TestPlanetExplorer.java RENAME test_of_end()=>void test_endOf() METHOD
+RefactoringAction 1494595108548 TestPlanetExplorer.java RENAME test_endOf()=>void test_endOfPlanet() METHOD
+EditAction 1494595136391 TestPlanetExplorer.java 1190 6 19 6
