@@ -47,6 +47,10 @@ public class PlanetExplorer {
 		{
 			this.direction="W";
 		}
+		if(command=="r")
+		{
+			this.direction="R";
+		}
 		
 		
 		
