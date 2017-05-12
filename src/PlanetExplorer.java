@@ -7,8 +7,8 @@ import java.awt.List;
 public class PlanetExplorer {
 	//List<> listObstacles=new List<>();
 	public String direction="N";
-	public int pos_x;
-	public int pos_y;
+	public int pos_x=0;
+	public int pos_y=0;
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -17,8 +17,8 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-		this.pos_x=x=0;
-		this.pos_y=0;
+		this.pos_x=x;
+		this.pos_y=y;
 		//listaObstacles.add((x,y));
 		//ostacles.add((x,y));
 		
@@ -39,6 +39,11 @@ public class PlanetExplorer {
 		{
 			this.pos_y++;
 		}
+		if(command=="l")
+		{
+			this.pos_y++;
+		}
+		
 		
 		
 		return "("+pos_x+","+pos_y+","+direction+")";
