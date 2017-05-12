@@ -15,7 +15,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_commandB() {
 		PlanetExplorer pe=new PlanetExplorer(3,3,"");
-		
+		pe.executeCommand("f");
 		assertEquals("(0,0,N)",pe.executeCommand("b"));
 		
 	}
