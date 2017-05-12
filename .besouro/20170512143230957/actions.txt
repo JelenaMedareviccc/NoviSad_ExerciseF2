@@ -130,3 +130,8 @@ EditAction 1494595424484 TestPlanetExplorer.java 1389 7 23 7
 UnitTestCaseAction 1494595426917 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494595426917 TestPlanetExplorer.java FAIL
 EditAction 1494595479349 TestPlanetExplorer.java 1389 7 23 7
+UnitTestCaseAction 1494595482753 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494595482753 TestPlanetExplorer.java OK
+RefactoringAction 1494595535985 PlanetExplorer.java ADD List<> listObstacles FIELD
+RefactoringAction 1494595597067 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
+EditAction 1494595619177 PlanetExplorer.java 2052 2 8 0

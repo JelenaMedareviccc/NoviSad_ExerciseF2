@@ -1,11 +1,12 @@
 import java.awt.List;
+import java.util.ArrayList;
 
 // Before you commit and push write your student ID and finish time here.
 // Finish time:
 // Student ID:
 
 public class PlanetExplorer {
-	//List<> listObstacles=new List<>();
+	ArrayList listObstacles=new ArrayList();
 	public String direction="N";
 	public int pos_x=0;
 	public int pos_y=0;
@@ -21,8 +22,8 @@ public class PlanetExplorer {
 	 */
 		this.x=x;
 		this.y=y;
-		//listaObstacles.add((x,y));
-		//ostacles.add((x,y));
+		listObstacles.add(obstacles);
+	
 		
 	}
 	
@@ -69,8 +70,6 @@ public class PlanetExplorer {
 				this.pos_x--;
 			}
 			
-		
-			
 		}
 		if(command=="l")
 		{
@@ -81,10 +80,6 @@ public class PlanetExplorer {
 			this.direction="E";
 			
 		}
-		
-		
-		
-		
 		
 		
 		

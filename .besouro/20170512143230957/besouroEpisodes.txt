@@ -16,3 +16,5 @@
 1494594897877 test-addition 1 200 true
 1494595246133 test-first 3 173 true
 1494595246134 test-first 3 173 true
+1494595482753 test-last 1 192 false
+1494595482754 test-last 1 192 false
