@@ -4,3 +4,18 @@ FileOpenedAction 1494592430046 TestPlanetExplorer.java 174 1 1 0
 RefactoringAction 1494592450116 PlanetExplorerException.java ADD PlanetExplorerException() METHOD
 RefactoringAction 1494592450119 PlanetExplorerException.java ADD PlanetExplorerException(Throwable) METHOD
 EditAction 1494592467685 PlanetExplorerException.java 271 2 2 0
+RefactoringAction 1494592927088 PlanetExplorer.java ADD List<> list FIELD
+RefactoringAction 1494592928109 PlanetExplorer.java RENAME list=>List<> listO FIELD
+RefactoringAction 1494592931125 PlanetExplorer.java RENAME listO=>List<> listObsta FIELD
+RefactoringAction 1494592932636 PlanetExplorer.java RENAME listObsta=>List<> listObstacles FIELD
+RefactoringAction 1494592935151 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>int x FIELD
+RefactoringAction 1494592941216 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>int x FIELD
+RefactoringAction 1494592948818 PlanetExplorer.java ADD import java.awt.List IMPORT
+RefactoringAction 1494592960267 PlanetExplorer.java REMOVE listObstacles FIELD
+RefactoringAction 1494592965789 PlanetExplorer.java ADD void List() METHOD
+RefactoringAction 1494592967807 PlanetExplorer.java REMOVE List() METHOD
+RefactoringAction 1494592969818 PlanetExplorer.java ADD List listObstacles FIELD
+RefactoringAction 1494592983850 PlanetExplorer.java REMOVE listObstacles FIELD
+RefactoringAction 1494592988874 PlanetExplorer.java ADD List<> listObstacles FIELD
+RefactoringAction 1494593037509 PlanetExplorer.java REMOVE listObstacles FIELD
+EditAction 1494593132344 PlanetExplorer.java 1417 2 3 0

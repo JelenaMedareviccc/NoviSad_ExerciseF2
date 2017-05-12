@@ -1,9 +1,11 @@
+import java.awt.List;
 
 // Before you commit and push write your student ID and finish time here.
 // Finish time:
 // Student ID:
 
 public class PlanetExplorer {
+	//List<> listObstacles=new List<>();
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -12,6 +14,11 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+		x=0;
+		y=0;
+		//listaObstacles.add((x,y));
+		//ostacles.add((x,y));
+		
 	}
 	
 	public String executeCommand(String command){
@@ -26,6 +33,8 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return null;
+		
+		
+		return "("+pos_x+","+pos_y+","+direction+")";
 	}
 }
