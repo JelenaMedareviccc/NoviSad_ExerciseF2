@@ -38,31 +38,33 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 	
-		if(direction=="N" || direction=="S"){
-		if(command=="f")
+		if(direction=="N" || direction=="S")
 		{
-			this.pos_y++;
-			
-		}
-		if(command=="b")
-		{
-			this.pos_y--;
-		}
+			if(this.pos_y==y-1){
+				pos_y=0;
+			}
+			else if(command=="f")
+			{
+				this.pos_y++;
+			}
+			else if(command=="b")
+			{
+				this.pos_y--;
+			}
 		}
 		if(direction=="W" || direction=="E")
 		{
 			
 			if(this.pos_x==x-1){
 				pos_x=0;
-				break;
 			}
 			
-			if(command=="f")
+			else if(command=="f")
 			{
 				this.pos_x++;
 				
 			}
-			if(command=="b")
+			else if(command=="b")
 			{
 				this.pos_x--;
 			}
