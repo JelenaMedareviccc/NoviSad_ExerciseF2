@@ -19,3 +19,22 @@ RefactoringAction 1494592983850 PlanetExplorer.java REMOVE listObstacles FIELD
 RefactoringAction 1494592988874 PlanetExplorer.java ADD List<> listObstacles FIELD
 RefactoringAction 1494593037509 PlanetExplorer.java REMOVE listObstacles FIELD
 EditAction 1494593132344 PlanetExplorer.java 1417 2 3 0
+CompilationAction 1494593133658 PlanetExplorer.java
+CompilationAction 1494593133661 PlanetExplorer.java
+CompilationAction 1494593133662 PlanetExplorer.java
+RefactoringAction 1494593155304 PlanetExplorer.java ADD String direction FIELD
+RefactoringAction 1494593218990 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1494593227507 PlanetExplorer.java RENAME x=>int pos_x FIELD
+RefactoringAction 1494593232020 PlanetExplorer.java ADD int pos_y FIELD
+CompilationAction 1494593246570 PlanetExplorer.java
+CompilationAction 1494593246572 PlanetExplorer.java
+CompilationAction 1494593246574 PlanetExplorer.java
+CompilationAction 1494593246786 PlanetExplorer.java
+CompilationAction 1494593259777 PlanetExplorer.java
+RefactoringAction 1494593269194 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>int x FIELD
+RefactoringAction 1494593284840 TestPlanetExplorer.java RENAME test_executeCommand()=>void test_command() METHOD
+RefactoringAction 1494593285849 TestPlanetExplorer.java RENAME test_command()=>void test_commandL() METHOD
+RefactoringAction 1494593368308 PlanetExplorer.java RENAME pos_x=>int pos_0 FIELD
+RefactoringAction 1494593370823 PlanetExplorer.java RENAME pos_0=>int pos_ FIELD
+RefactoringAction 1494593372337 PlanetExplorer.java RENAME pos_=>int pos_x FIELD
+EditAction 1494593383075 PlanetExplorer.java 1554 2 2 0
