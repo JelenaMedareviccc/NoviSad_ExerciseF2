@@ -49,7 +49,7 @@ public class PlanetExplorer {
 		}
 		if(command=="r")
 		{
-			this.direction="R";
+			this.direction="E";
 		}
 		
 		
