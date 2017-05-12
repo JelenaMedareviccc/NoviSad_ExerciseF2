@@ -23,7 +23,7 @@ public class TestPlanetExplorer {
 	public void test_commandL() {
 		PlanetExplorer pe=new PlanetExplorer(0,0,"");
 		
-		assertEquals("(0,0,W)",pe.executeCommand("f"));
+		assertEquals("(0,0,W)",pe.executeCommand("l"));
 		
 	}
 }
